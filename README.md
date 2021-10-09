@@ -7,6 +7,14 @@
  
 | semester 1 | semester 2 | semester 3 |
 | :--- | :--- | :--- |
+|  |  | Analisis Numerik |
+|  |  | Basis Data |
+|  |  | Interaksi Manusia dan Komputer |
+|  |  | Jaringan Komputer 2 |
+|  |  | Praktikum Basis Data |
+|  |  | Rekayasa Perangkat Lunak |
+|  |  | Statistik Probabilitas |
+|  |  | Web Programming |
 
 <!-- [![CircleCI](https://circleci.com/gh/faizH3/tree/tree/master.svg?style=svg)](https://circleci.com/gh/faizH3/tree/tree/master) -->
 <!-- <p><img align='center' src='https://github.com/faizH3/tree/blob/master/img/SmartHomeNotificationsBlogAsset.png'</p> -->
