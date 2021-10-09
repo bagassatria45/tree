@@ -2,6 +2,7 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=faizH3&show_icons=true" alt="faizH3" /></p>
 <!-- <p><img align="center" src="https://github-readme-stats.faizH3.vercel.app/api/top-langs/?username=faizH3" /> -->
 <p><src="https://github.com/faizH3/tree/deployments/activity_log"/>
+ 
 #### My Courses
  
 | semester 1 | semester 2 | semester 3 |
