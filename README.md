@@ -7,14 +7,14 @@
  
 | semester 1 | semester 2 | semester 3 |
 | :--- | :--- | :--- |
-|  |  | Analisis Numerik |
+|  |  | [Analisis Numerik](https://github.com/faizH3/tree/tree/master/Semester%203/analisis%20numerik) |
 |  |  | Basis Data |
-|  |  | Interaksi Manusia dan Komputer |
+|  |  | [Interaksi Manusia dan Komputer]() |
 |  |  | Jaringan Komputer 2 |
 |  |  | Praktikum Basis Data |
-|  |  | Rekayasa Perangkat Lunak |
-|  |  | Statistik Probabilitas |
-|  |  | Web Programming |
+|  |  | [Rekayasa Perangkat Lunak](https://github.com/faizH3/tree/tree/master/Semester%203/rekayasa%20perangkat%20lunak) |
+|  |  | [Statistik Probabilitas](https://github.com/faizH3/tree/tree/master/Semester%203/statistik%20probabilitas) |
+|  |  | [Web Programming](https://github.com/faizH3/tree/tree/master/Semester%203/web%20programming) |
 
 <!-- [![CircleCI](https://circleci.com/gh/faizH3/tree/tree/master.svg?style=svg)](https://circleci.com/gh/faizH3/tree/tree/master) -->
 <!-- <p><img align='center' src='https://github.com/faizH3/tree/blob/master/img/SmartHomeNotificationsBlogAsset.png'</p> -->
