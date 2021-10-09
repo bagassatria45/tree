@@ -1,7 +1,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=faizH3" alt="faizH3" /> </p>
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=faizH3&show_icons=true" alt="faizH3" /></p>
 <p><img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=faizH3" />
-<p><src="https://github.com/faizH3/tree/deployments/activity_log"/>
+<!-- <p><src="https://github.com/faizH3/tree/deployments/activity_log"/> -->
 [![CircleCI](https://circleci.com/gh/faizH3/tree/tree/master.svg?style=svg)](https://circleci.com/gh/faizH3/tree/tree/master)
 <!-- <p><img align='center' src='https://github.com/faizH3/tree/blob/master/img/SmartHomeNotificationsBlogAsset.png'</p> -->
 <!-- ## Welcome to GitHub Pages
