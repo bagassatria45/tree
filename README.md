@@ -5,7 +5,7 @@
  
 #### My Courses
  
-| semester 1 | semester 2 | semester 3 |
+| semester 1 | semester 2 |        semester 3 |
 | :--- | :--- | :--- |
 |  |  | [Analisis Numerik](https://github.com/faizH3/tree/tree/master/Semester%203/analisis%20numerik) |
 |  |  | Basis Data |
