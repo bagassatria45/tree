@@ -1,4 +1,6 @@
+![](https://elearning.binadarma.ac.id/pluginfile.php/1/theme_lambda/logo/1634529685/ubd_logo.png)
 <a href="https://app.daily.dev/faizH3"><img src="https://api.daily.dev/devcards/3f67a30565854357b148d08411ae783b.png?r=vpx" width="400" alt="Faiz Hidayat's Dev Card"/></a>
+<!-- ![](https://api.daily.dev/devcards/3f67a30565854357b148d08411ae783b.png?r=vpx) -->
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=faizH3" alt="faizH3" /> </p>
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=faizH3&show_icons=true" alt="faizH3" /></p>
 <!-- <p><img align="center" src="https://github-readme-stats.faizH3.vercel.app/api/top-langs/?username=faizH3" /> -->
@@ -16,7 +18,11 @@
 |  |  | [Rekayasa Perangkat Lunak](https://github.com/faizH3/tree/tree/master/Semester%203/rekayasa%20perangkat%20lunak) |
 |  |  | [Statistik Probabilitas](https://github.com/faizH3/tree/tree/master/Semester%203/statistik%20probabilitas) |
 |  |  | [Web Programming](https://github.com/faizH3/tree/tree/master/Semester%203/web%20programming) |
+
  
+```Kreativitas```
+ 
+```Jika saya menunggu orang lain untuk membuat alat-alat yang saya butuhkan, saya tidak akan pernah membuat apapun```
 <link rel="dns-prefetch" href="https://github.githubassets.com">
 <!-- [![CircleCI](https://circleci.com/gh/faizH3/tree/tree/master.svg?style=svg)](https://circleci.com/gh/faizH3/tree/tree/master) -->
 <!-- <p><img align='center' src='https://github.com/faizH3/tree/blob/master/img/SmartHomeNotificationsBlogAsset.png'</p> -->
