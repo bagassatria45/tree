@@ -1,5 +1,5 @@
-![](https://github.com/faizH3/tree/blob/master/ubd_logo1.png)
-
+<!-- ![](https://github.com/faizH3/tree/blob/master/ubd_logo1.png) -->
+<img src="https://github.com/faizH3/tree/blob/master/ubd_logo1.png" width="200px"/>
 | <a href="https://app.daily.dev/faizH3"><img src="https://api.daily.dev/devcards/3f67a30565854357b148d08411ae783b.png?r=vpx" width="400" alt="Faiz Hidayat's Dev Card"/></a> |  |
 | --- | --- |
 <!-- ![](https://api.daily.dev/devcards/3f67a30565854357b148d08411ae783b.png?r=vpx) -->
