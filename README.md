@@ -1,4 +1,5 @@
-![](https://elearning.binadarma.ac.id/pluginfile.php/1/theme_lambda/logo/1634529685/ubd_logo.png)
+<!-- ![](https://github.com/faizH3/tree/blob/master/ubd_logo1.png) -->
+<img src="https://github.com/faizH3/tree/blob/master/ubd_logo1.png" width="400px"/>
 <a href="https://app.daily.dev/faizH3"><img src="https://api.daily.dev/devcards/3f67a30565854357b148d08411ae783b.png?r=vpx" width="400" alt="Faiz Hidayat's Dev Card"/></a>
 <!-- ![](https://api.daily.dev/devcards/3f67a30565854357b148d08411ae783b.png?r=vpx) -->
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=faizH3" alt="faizH3" /> </p>
@@ -24,6 +25,7 @@
  
 ```Jika saya menunggu orang lain untuk membuat alat-alat yang saya butuhkan, saya tidak akan pernah membuat apapun```
 <link rel="dns-prefetch" href="https://github.githubassets.com">
+
 <!-- [![CircleCI](https://circleci.com/gh/faizH3/tree/tree/master.svg?style=svg)](https://circleci.com/gh/faizH3/tree/tree/master) -->
 <!-- <p><img align='center' src='https://github.com/faizH3/tree/blob/master/img/SmartHomeNotificationsBlogAsset.png'</p> -->
 <!-- ## Welcome to GitHub Pages
