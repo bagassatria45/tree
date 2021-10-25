@@ -10,3 +10,4 @@
 | Praktikum Basis Data | 1423208 | 2.0 | IF3A/RABU/14:00-15:40/LIK-C307 | pertemuan |
 | Interaksi Manusia dan Komputer | 1423206 | 2.0 | IF3A/KAMIS/08:00-09:40/U504 | pertemuan |
 | Rekayasa Perangkat Lunak | 1423209 | 2.0 | IF3A/KAMIS/10:00-11:40/U502 | pertemuan |
+| Pendidikan Agama | UBD2006 | 2.0 | UBD1Q/KAMIS/12:00:00-13:40:00/U502 | Pertemuan |
