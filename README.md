@@ -23,9 +23,7 @@
  
 ```Kreativitas ```
  
- ```text
- Jika saya menunggu orang lain untuk membuat alat-alat yang saya butuhkan, saya tidak akan pernah membuat apapun
- ```
+ ```Jika saya menunggu orang lain untuk membuat alat-alat yang saya butuhkan, saya tidak akan pernah membuat apapun```
 
  
 
