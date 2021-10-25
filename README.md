@@ -23,7 +23,8 @@
  
 ```Kreativitas```
  
-```Jika saya menunggu orang lain untuk membuat alat-alat yang saya butuhkan, saya tidak akan pernah membuat apapun```
+```text
+ Jika saya menunggu orang lain untuk membuat alat-alat yang saya butuhkan, saya tidak akan pernah membuat apapun```
 <link rel="dns-prefetch" href="https://github.githubassets.com">
 
 <!-- [![CircleCI](https://circleci.com/gh/faizH3/tree/tree/master.svg?style=svg)](https://circleci.com/gh/faizH3/tree/tree/master) -->
