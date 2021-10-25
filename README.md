@@ -21,9 +21,7 @@
 |  |  | [Web Programming](https://github.com/faizH3/tree/tree/master/Semester%203/web%20programming) |
 
  
-```
- Kreativitas
- ```
+```Kreativitas ```
  
  ```text
  Jika saya menunggu orang lain untuk membuat alat-alat yang saya butuhkan, saya tidak akan pernah membuat apapun
