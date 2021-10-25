@@ -1,6 +1,6 @@
-| Jadwal Matakuliah |
-| --- |
-| Senin |
-| selasa |
-| Rabu |
-| Kamis |
+| Hari | Mata Kuliah |
+| --- | |
+| Senin | |
+| selasa | |
+| Rabu | |
+| Kamis | |
