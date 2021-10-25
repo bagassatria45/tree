@@ -19,6 +19,7 @@
 |  |  | [Rekayasa Perangkat Lunak](https://github.com/faizH3/tree/tree/master/Semester%203/rekayasa%20perangkat%20lunak) |
 |  |  | [Statistik Probabilitas](https://github.com/faizH3/tree/tree/master/Semester%203/statistik%20probabilitas) |
 |  |  | [Web Programming](https://github.com/faizH3/tree/tree/master/Semester%203/web%20programming) |
+|  |  | [Pendidikan Agama](https://github.com/faizH3/tree/tree/master/Semester%203/pendidikan%20agama) |
 
  
 ```Kreativitas ```
