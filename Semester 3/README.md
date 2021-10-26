@@ -11,3 +11,6 @@
 | Interaksi Manusia dan Komputer | 1423206 | 2.0 | IF3A/KAMIS/08:00-09:40/U504 | pertemuan |
 | Rekayasa Perangkat Lunak | 1423209 | 2.0 | IF3A/KAMIS/10:00-11:40/U502 | pertemuan |
 | Pendidikan Agama | UBD2006 | 2.0 | UBD1Q/KAMIS/12:00:00-13:40:00/U502 | Pertemuan |
+
+
+<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=XzZ0bG5hcXJsZTVwNmNwYjRkaG1qNHBocGVncGplc3BpNmxvbWFxMzNjOWo2ZWMzNzc0czY4YzFtY3BpNmdwYjY2c3FtY29iaTZkbjY4c2o2Y2RqNmlwMWhkOG9uMnBwbGVsbmoyYzNtNmRrajAgZmFpejA2aGlkYXlhdEBt&amp;tmsrc=faiz06hidayat%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
