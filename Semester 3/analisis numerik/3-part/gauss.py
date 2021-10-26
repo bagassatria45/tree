@@ -39,4 +39,4 @@ for i in range(n):
 # Displaying solution
 print('\nRequired solution is: ')
 for i in range(n):
-    print('X%d = %0.2f' %(i,x[i]), end = '\t')
+    print('X%d = %f' %(i,x[i]), end = '\t')
