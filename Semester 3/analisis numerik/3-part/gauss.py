@@ -4,7 +4,7 @@ import sys
 
 # Reading number of unknowns
 n = int(input('Enter number of unknowns: '))
-
+np.zeros
 # Making numpy array of n x n+1 size and initializing 
 # to zero for storing augmented matrix
 a = np.zeros((n,n+1))
@@ -26,9 +26,13 @@ for i in range(n):
         
     for j in range(n):
         if i != j:
+            # print(a[j][i])
+            # print(a[i][i])
             ratio = a[j][i]/a[i][i]
+            # print(f'\n{ratio}')
 
             for k in range(n+1):
+                # print(a[j][k], end=' ')
                 a[j][k] = a[j][k] - ratio * a[i][k]
 
 # Obtaining Solution
