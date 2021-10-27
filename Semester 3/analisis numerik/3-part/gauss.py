@@ -26,8 +26,6 @@ for i in range(n):
         
     for j in range(n):
         if i != j:
-            # print(a[j][i])
-            # print(a[i][i])
             ratio = a[j][i]/a[i][i]
             # print(f'\n{ratio}')
 
@@ -44,3 +42,5 @@ for i in range(n):
 print('\nRequired solution is: ')
 for i in range(n):
     print('X%d = %f' %(i,x[i]), end = '\t')
+
+    
