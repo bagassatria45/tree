@@ -32,7 +32,7 @@ for i in range(n):
             for k in range(n+1):
                 # print(a[j][k], end=' ')
                 a[j][k] = a[j][k] - ratio * a[i][k]
-
+for  
 # Obtaining Solution
 
 for i in range(n):
