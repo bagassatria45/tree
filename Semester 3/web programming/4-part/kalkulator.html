@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>kalkulator dengan twiter bootstrap dan jquery</title>
+    <!-- <link href="library/bootstrap.min.css" rel="stylesheet" /> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script src="library/jquery-1.11.0.js"></script>
+    <style rel="stylesheet">
+      .btn {
+        width: 80px;
+        height: 80px;
+        margin: 5px;
+        font-size: 2em;
+      }
+      #layar {
+        height: 60px;
+        font-size: 2em;
+      }
+      .kartu {
+        width: 450px;
+        height: auto;
+        margin: 0 auto;
+        margin: top auto;
+        box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.031);
+        transition: all 0.3s;
+        background-color: #d0d0d0;
+        border: solid 8px rgb(220, 220, 220);
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        /* font-size: 5px; */
+        /* font-weight: 300; */
+        color: rgb(0, 0, 0);
+      }
+      .kartu:hover {
+        background-color: rgb(0, 0, 0);
+        border: solid 8px rgb(38, 38, 38);
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        /* font-size: 5px; */
+        /* font-weight: 300; */
+        color: rgb(255, 255, 255);
+        /* animation-name: inherit; */
+      }
+    </style>
+    <script>
+      $("document").ready(function () {
+        $("#layar").val(0);
+        var nilai1 = $("#layar").val();
+        var nilai2 = "";
+        var nilai3 = "";
+        var operasi = "";
+
+        function aksi(aksi) {
+          if (aksi == "+" || aksi == "-" || aksi == "*" || aksi == "/") {
+            nilai2 = parseFloat($("#layar").val());
+
+            $("#layar").val(0);
+            nilai1 = "";
+            operasi = aksi;
+          }
+
+          if (aksi == "C") {
+            $("#layar").val(0);
+            nilai1 = "";
+          }
+          if (aksi == "=") {
+            hitung(operasi);
+          }
+          // if (aksi == "-") {
+          //   hitung(operasi);
+          // }
+
+          if (aksi == "del") {
+            var temp = $("#layar").val();
+            if (temp != 0) {
+              temp = temp.substring(0, temp.length - 1);
+              $("#layar").val(temp);
+              nilai1 = $("#layar").val();
+            }
+
+            if (temp.length == 0) {
+              $("#layar").val(0);
+              nilai1 = $("#layar").val();
+            }
+          }
+        }
+
+        function hitung(operan) {
+          if (operan == "+") {
+            nilai3 = parseFloat(nilai1);
+            nilai1 = "";
+            $("#layar").val(nilai2 + nilai3);
+          }
+
+          if (operan == "-") {
+            nilai3 = parseFloat(nilai1);
+            nilai1 = "";
+            $("#layar").val(nilai2 - nilai3);
+          }
+
+          if (operan == "*") {
+            nilai3 = parseFloat(nilai1);
+            nilai1 = "";
+            $("#layar").val(nilai2 * nilai3);
+          }
+
+          if (operan == "/") {
+            nilai3 = parseFloat(nilai1);
+            nilai1 = "";
+            $("#layar").val(nilai2 / nilai3);
+          }
+        }
+
+        $(".angka").click(function () {
+          if ($("#layar").val() == 0) {
+            nilai1 = "";
+          }
+          nilai1 += $(this).val();
+          $("#layar").val(nilai1);
+        });
+
+        $(".aksi").click(function () {
+          aksi($(this).val());
+        });
+      });
+      function calc(value) {
+        var val = document.getElementById("hasil");
+        if (val.value == "undefined") {
+          val.value = "";
+        }
+        val.value += value;
+      }
+    </script>
+  </head>
+  <body>
+    <!-- kode untuk tampilan kalkulator -->
+    <!-- <div class="container"> -->
+    <div class="card kartu">
+      <div class="row">
+        <div class="col-sm-offset-auto col-sm-auto">
+          <div class="panel-heading">
+            <p class="panel-title">Kalkulator</p>
+          </div>
+
+          <!-- panel body starat-->
+          <div class="panel-body text-center">
+            <form class="" role="form">
+              <input id="layar" type="text" class="form-control text-right" />
+              <br />
+              <input
+                type="button"
+                class="btn btn-success aksi"
+                value="CE"
+                id="hapus"
+              />
+              <input
+                type="button"
+                class="btn btn-danger aksi"
+                value="C"
+                id="hapus"
+              />
+              <input
+                type="button"
+                class="btn btn-danger aksi"
+                value="del"
+                id="bkspace"
+              />
+              <input
+                type="button"
+                class="btn btn-dark aksi"
+                value="/"
+                id="bagi"
+              />
+              <br />
+              <input
+                type="button"
+                class="btn btn-dark angka"
+                value="1"
+                id="satu"
+              />
+              <input
+                type="button"
+                class="btn btn-dark angka"
+                value="2"
+                id="dua"
+              />
+              <input
+                type="button"
+                class="btn btn-dark angka"
+                value="3"
+                id="tiga"
+              />
+              <input
+                type="button"
+                class="btn btn-dark aksi"
+                value="*"
+                id="kali"
+              />
+              <br />
+              <input
+                type="button"
+                class="btn btn-dark angka"
+                value="4"
+                id="empat"
+              />
+              <input
+                type="button"
+                class="btn btn-dark angka"
+                value="5"
+                id="lima"
+              />
+              <input
+                type="button"
+                class="btn btn-dark angka"
+                value="6"
+                id="enam"
+              />
+              <input
+                type="button"
+                class="btn btn-dark aksi"
+                value="-"
+                id="kurang"
+              />
+              <br />
+              <input
+                type="button"
+                class="btn btn-dark angka"
+                value="7"
+                id="tujuh"
+              />
+              <input
+                type="button"
+                class="btn btn-dark angka"
+                value="8"
+                id="delapan"
+              />
+              <input
+                type="button"
+                class="btn btn-dark angka"
+                value="9"
+                id="sembilan"
+              />
+              <input
+                type="button"
+                class="btn btn-dark aksi"
+                value="+"
+                id="tambah"
+              />
+              <br />
+              <input
+                type="button"
+                class="btn btn-dark aksi"
+                value="-"
+                onclick=""
+              />
+              <input
+                type="button"
+                class="btn btn-dark angka"
+                value="0"
+                id="kosong"
+              />
+              <input
+                type="button"
+                class="btn btn-dark angka"
+                value="."
+                id="titik"
+              />
+              <input
+                type="button"
+                class="btn btn-primary aksi"
+                value="="
+                id="samadengan"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
