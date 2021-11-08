@@ -9,16 +9,16 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <script src="library/jquery-1.11.0.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <style rel="stylesheet">
       .btn {
         width: 80px;
         height: 80px;
         margin: 5px;
-        font-size: 2em;
+        font-size: 1.5em;
       }
       #layar {
-        height: 60px;
+        height: 50px;
         font-size: 2em;
       }
       .kartu {
@@ -53,7 +53,7 @@
     </style>
     <script>
       $("document").ready(function () {
-        $("#layar").val(0);
+        $("#layar").val();
         var nilai1 = $("#layar").val();
         var nilai2 = "";
         var nilai3 = "";
@@ -63,7 +63,7 @@
           if (aksi == "+" || aksi == "-" || aksi == "*" || aksi == "/") {
             nilai2 = parseFloat($("#layar").val());
 
-            $("#layar").val(0);
+            $("#layar").val(aksi);
             nilai1 = "";
             operasi = aksi;
           }
@@ -127,159 +127,59 @@
           nilai1 += $(this).val();
           $("#layar").val(nilai1);
         });
-
+        $(".negatif").click(function () {
+          if ($("#layar").val() == 0) {
+            nilai1 = "";
+          }
+          nilai1 += $(this).val();
+          $("#layar").val(-nilai1);
+        });
         $(".aksi").click(function () {
           aksi($(this).val());
         });
       });
-      function calc(value) {
-        var val = document.getElementById("hasil");
-        if (val.value == "undefined") {
-          val.value = "";
-        }
-        val.value += value;
-      }
     </script>
   </head>
   <body>
     <!-- kode untuk tampilan kalkulator -->
-    <!-- <div class="container"> -->
     <div class="card kartu">
       <div class="row">
         <div class="col-sm-offset-auto col-sm-auto">
           <div class="panel-heading">
-            <p class="panel-title">Kalkulator</p>
+            <p class="panel-title">Kalkulator Faiz Hidayat</p>
           </div>
-
-          <!-- panel body starat-->
           <div class="panel-body text-center">
-            <form class="" role="form">
+            <form class="form" role="form">
               <input id="layar" type="text" class="form-control text-right" />
               <br />
-              <input
-                type="button"
-                class="btn btn-success aksi"
-                value="CE"
-                id="hapus"
-              />
-              <input
-                type="button"
-                class="btn btn-danger aksi"
-                value="C"
-                id="hapus"
-              />
-              <input
-                type="button"
-                class="btn btn-danger aksi"
-                value="del"
-                id="bkspace"
-              />
-              <input
-                type="button"
-                class="btn btn-dark aksi"
-                value="/"
-                id="bagi"
-              />
+              <button type="button" class="btn btn-success aksi" value="CE">
+                CE
+              </button>
+              <button type="button" class="btn btn-danger aksi" value="C">
+                C
+              </button>
+              <input type="button" class="btn btn-danger aksi" value="del" />
+              <input type="button" class="btn btn-dark aksi" value="/" />
               <br />
-              <input
-                type="button"
-                class="btn btn-dark angka"
-                value="1"
-                id="satu"
-              />
-              <input
-                type="button"
-                class="btn btn-dark angka"
-                value="2"
-                id="dua"
-              />
-              <input
-                type="button"
-                class="btn btn-dark angka"
-                value="3"
-                id="tiga"
-              />
-              <input
-                type="button"
-                class="btn btn-dark aksi"
-                value="*"
-                id="kali"
-              />
+              <input type="button" class="btn btn-dark angka" value="1" />
+              <input type="button" class="btn btn-dark angka" value="2" />
+              <input type="button" class="btn btn-dark angka" value="3" />
+              <input type="button" class="btn btn-dark aksi" value="*" />
               <br />
-              <input
-                type="button"
-                class="btn btn-dark angka"
-                value="4"
-                id="empat"
-              />
-              <input
-                type="button"
-                class="btn btn-dark angka"
-                value="5"
-                id="lima"
-              />
-              <input
-                type="button"
-                class="btn btn-dark angka"
-                value="6"
-                id="enam"
-              />
-              <input
-                type="button"
-                class="btn btn-dark aksi"
-                value="-"
-                id="kurang"
-              />
+              <input type="button" class="btn btn-dark angka" value="4" />
+              <input type="button" class="btn btn-dark angka" value="5" />
+              <input type="button" class="btn btn-dark angka" value="6" />
+              <input type="button" class="btn btn-dark aksi" value="-" />
               <br />
-              <input
-                type="button"
-                class="btn btn-dark angka"
-                value="7"
-                id="tujuh"
-              />
-              <input
-                type="button"
-                class="btn btn-dark angka"
-                value="8"
-                id="delapan"
-              />
-              <input
-                type="button"
-                class="btn btn-dark angka"
-                value="9"
-                id="sembilan"
-              />
-              <input
-                type="button"
-                class="btn btn-dark aksi"
-                value="+"
-                id="tambah"
-              />
+              <input type="button" class="btn btn-dark angka" value="7" />
+              <input type="button" class="btn btn-dark angka" value="8" />
+              <input type="button" class="btn btn-dark angka" value="9" />
+              <input type="button" class="btn btn-dark aksi" value="+" />
               <br />
-              <input
-                type="button"
-                class="btn btn-dark aksi"
-                value="-"
-                onclick=""
-              />
-              <input
-                type="button"
-                class="btn btn-dark angka"
-                value="0"
-                id="kosong"
-              />
-              <input
-                type="button"
-                class="btn btn-dark angka"
-                value="."
-                id="titik"
-              />
-              <input
-                type="button"
-                class="btn btn-primary aksi"
-                value="="
-                id="samadengan"
-              />
+              <button type="button" class="btn btn-dark negatif">+/-</button>
+              <input type="button" class="btn btn-dark angka" value="0" />
+              <input type="button" class="btn btn-dark angka" value="." />
+              <input type="button" class="btn btn-primary aksi" value="=" />
             </form>
           </div>
         </div>
