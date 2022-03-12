@@ -1,0 +1,1 @@
+MINDSET DAN BERPIKIR PERUBAHAN:https://zenodo.org/record/5864999#.Yivw2H_MLZs

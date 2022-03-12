@@ -1,0 +1,1 @@
+Referensi: https://www.jurnal.id/id/blog/apa-itu-wirausaha-bagaimana-cara-menjadi-wirausaha-sukses/
